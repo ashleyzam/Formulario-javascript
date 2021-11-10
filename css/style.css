@@ -1,71 +1,65 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-     
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
 }
- 
+
 .main {
-    padding: 80px;
-    border: 1px solid rgb(95, 93, 93);
-    box-shadow: 0px 3px 7px 3px gray;
-    border-radius: 12px;
-    margin-top: 100px;
-   width: 25%;
+  padding: 80px;
+  border: 1px solid rgb(95, 93, 93);
+  box-shadow: 0px 3px 7px 3px gray;
+  border-radius: 12px;
+  margin-top: 100px;
+  width: 25%;
 }
 
-
-.container{
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    width: 100%;
-  
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 100%;
 }
 
-.checkk{
-    margin-top: 15px;
+.checkk {
+  margin-top: 15px;
 }
-.cont{
-    display: flex;
+.cont {
+  display: flex;
 }
-.lbl{
-    margin-top: 16px;
-    margin-left: 5px;
-    
+.lbl {
+  margin-top: 16px;
+  margin-left: 5px;
 }
-button{
-    width: 100px;
-    padding: 5px;
-    margin-top: 15px;
-    border-radius: 8px;
-    background-color: rgb(33, 33, 194);
-    color: white;
+button {
+  width: 100px;
+  padding: 5px;
+  margin-top: 15px;
+  border-radius: 8px;
+  background-color: rgb(33, 33, 194);
+  color: white;
 }
-input{
-    border-radius: 8px;
-    border: 1.5px solid gray;
-    height: 22px;
-    outline: none;
+input {
+  border-radius: 8px;
+  border: 1.5px solid gray;
+  height: 22px;
+  outline: none;
 }
-label{
-    margin-bottom: 8px;
-    margin-top: 8px;
-    
+label {
+  margin-bottom: 8px;
+  margin-top: 8px;
 }
 #v {
-    display: none;
-    color: green;
+  display: none;
+  color: green;
 }
 
 #e {
-    
-    display: none;
-    color: red;
+  display: none;
+  color: red;
 }
